@@ -17,5 +17,11 @@ namespace EvaluationManagerG09 {
         private void Form1_Load(object sender, EventArgs e) {
 
         }
+
+        private void btnLogin_Click(object sender, EventArgs e) {
+            if(txtUsername.Text == "") {
+                MessageBox.Show("Korisničko ime nije usneseno", "Problem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
