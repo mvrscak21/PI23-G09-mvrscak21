@@ -34,7 +34,7 @@ namespace Evaluation_Manager
             {
                 if (txtUsername.Text == username && txtPassword.Text == password)
                 {
-                    FrmStudents frmStudents = new FrmStudents();
+                    btnEvaluateStudents frmStudents = new btnEvaluateStudents();
                     Hide();
                     frmStudents.ShowDialog();
                     Close();
